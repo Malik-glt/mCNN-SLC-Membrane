@@ -138,7 +138,7 @@ test_steps_per_epoch = int(np.ceil(total_test_samples / BATCH_SIZE))
 def val_binary(epoch, logs):
     try:
         # Recreate the test generator for each validation step to reset it
-        test_generator = data_generator('D:/SLC/Training_Membrane/testing_Membrane', 'D:/SLC/Training_Membrane/testing_labels.csv')
+        test_generator = data_generator('pathe_Testing_Data', 'path_Testing_Labels')
 
         # Predict on test data using the test generator
         pred = model.predict(test_generator)
@@ -165,7 +165,6 @@ for epoch in range(EPOCHS):
             tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=10)
         ]
     )
-
 
 
 
@@ -215,7 +214,7 @@ def pred_binary(epoch, logs):
         roc_auc = auc(fpr, tpr)
 
         # Plot ROC curve
-        display = RocCurveDisplay(fpr=fpr, tpr=tpr, roc_auc=roc_auc, estimator_name='mCNN_Membrane')
+        display = RocCurveDisplay(fpr=fpr, tpr=tpr, roc_auc=roc_auc, estimator_name='mCNN-SLC-Membrane')
         display.plot()
 
         # Find the best threshold based on g-mean
