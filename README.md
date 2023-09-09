@@ -10,7 +10,7 @@ The primary data utilized in this study was obtained from the Universal Protein 
 
 ## Fig. 2: Deep Learning Model: Multiple Windows Scanning mCNN
 
-![](https://github.com/Malik-glt/mCNN-SLC-Membrane/blob/main/Architecture%20of%20Project.png?raw=true)
+![]([https://github.com/Malik-glt/mCNN-SLC-Membrane/blob/main/Architecture%20of%20Project.png?raw=true](https://github.com/Malik-glt/mCNN-SLC-Membrane/blob/main/mCNN%20Model.png?raw=true))
 
 ## References
 1.	UniProt: the Universal Protein knowledgebase in 2023. Nucleic Acids Research, 2023. 51(D1): p. D523-D531.
