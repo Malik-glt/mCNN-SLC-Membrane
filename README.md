@@ -6,9 +6,11 @@ We suggest combining multiple-window scanning with pre-trained protein language 
 ![](https://github.com/Malik-glt/mCNN-SLC-Membrane/blob/main/Architecture%20of%20Project.png?raw=true)
 
 ## Methodology
-The primary data utilized in this study was obtained from the Universal Protein (UniProt) database [1], specifically focusing on secondary active transporters and membrane proteins. After preprocessing, we used Prottrans, a previously trained protein language model [2], to extract complex features from protein sequences and fine-tune them using our dataset. This method enabled us to capture the encoded information within the sequences, allowing for more accurate predictive modeling. To comprehensively analyze protein sequences, our model architecture is based on convolutional neural networks (CNNs) with numerous window scanning techniques. This strategy considered various window sizes, allowing for a comprehensive examination of sequence patterns. The complete architecture is depicted in Figure 1.
+The primary data utilized in this study was obtained from the Universal Protein (UniProt) database [1], specifically focusing on secondary active transporters and membrane proteins. After preprocessing, we used Prottrans, a previously trained protein language model [2], to extract complex features from protein sequences and fine-tune them using our dataset. This method enabled us to capture the encoded information within the sequences, allowing for more accurate predictive modeling. To comprehensively analyze protein sequences, our model architecture is based on convolutional neural networks (CNNs) with numerous window scanning techniques. This strategy considered various window sizes, allowing for a comprehensive examination of sequence patterns. The complete architecture is depicted in Figure 1 and the classification model in Figure 2.
 
+## Fig. 2: Deep Learning Model: Multiple Windows Scanning mCNN
 
+![](https://github.com/Malik-glt/mCNN-SLC-Membrane/blob/main/Architecture%20of%20Project.png?raw=true)
 
 ## References
 1.	UniProt: the Universal Protein knowledgebase in 2023. Nucleic Acids Research, 2023. 51(D1): p. D523-D531.
