@@ -18,16 +18,6 @@ The primary data utilized in this study was obtained from the Universal Protein 
 
 ## Citation
 
-If you use this repository, please cite the following paper:
+If you use this work, please cite:
 
-```bibtex
-@ARTICLE{malik2023integrating,
-  author = {Muhammad Shahid Malik and Yu-Yen Ou},
-  title = {Integrating Pre-Trained protein language model and multiple window scanning deep learning networks for accurate identification of secondary active transporters in membrane proteins},
-  journal = {Methods},
-  volume = {220},
-  pages = {11--20},
-  year = {2023},
-  publisher = {Elsevier},
-  doi = {10.1016/j.ymeth.2023.10.008}
-}
+Malik, M. S., & Ou, Y. Y. (2023). Integrating Pre-Trained protein language model and multiple window scanning deep learning networks for accurate identification of secondary active transporters in membrane proteins. *Methods*. 10.1016/j.ymeth.2023.10.008
